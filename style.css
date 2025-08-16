@@ -1,0 +1,30 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f4f4f4;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 100px);
+      grid-template-rows: repeat(2, 100px);
+      gap: 20px; /* space between boxes */
+    }
+
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #333;
+      font-size: 20px;
+      font-weight: bold;
+      
+    }
